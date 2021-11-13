@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb://127.0.0.1:27017/TASSWORD",
+  "mongoURI": "mongodb+srv://houcem:houcem@cluster0.byulh.mongodb.net/tassword?retryWrites=true&w=majority",
   "jwtSecret": "Tassword"
 }

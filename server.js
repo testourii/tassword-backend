@@ -3,7 +3,12 @@ const connectDB = require("./config/db");
 const app = express();
 const passport = require("passport");
 var cors = require("cors");
-app.use(cors());
+
+app.use(
+  cors({
+    origins: "*:* http://localhost:* https://* *",
+  })
+);
 require("./passport"); // Passport config
 //require("./passport")(passport);
 //connectDB
